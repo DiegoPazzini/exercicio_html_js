@@ -1,0 +1,23 @@
+<body>
+    <nav>
+        <div class="container">
+            <h1>Integrando HTML com JavaScript</h1>
+            <h2>Validação no JavaScript</h2>
+            <link rel="stylesheet" href="main.css">
+            <form id="form-confirm">
+                <label for="A"><b>Valor_A</b></label>
+                <input type="number" id="valor-a" required placeholder="Digite o valor A" />
+                <label for="B"><b>Valor_B</b></label>
+                <input type="number" id="valor-b" required placeholder="Digite o valor B" />
+                <p class="error-message">
+                    O valor B precisa ser maior que o valor A!
+                </p>
+                <button type="submit">Validar</button>
+            </form>
+            <p class="success-message">
+                formulario enviado com sucesso! Verificando: <b> ValorA menor que ValorB!</B>
+                </p>
+        </div>
+    </nav> 
+        <script src="main.js"></script>
+    </body>
