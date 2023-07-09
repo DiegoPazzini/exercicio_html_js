@@ -11,7 +11,7 @@ form.addEventListener('submit', function(e){
     let ValA = parseFloat(document.getElementById('valor-a').value);
     let ValB = parseFloat(document.getElementById('valor-b').value);
 
-    const messagesucess = 'formulario enviado com sucesso! Verificando: <b> ValorA menor que ValorB!</B>';
+    const messagesucess = 'formulario enviado com sucesso! Verificando: <b> Valor A menor que Valor B!</B>';
     const containermessagesucess = document.querySelector('.success-message');
     
     formValid = numbervalid(ValA, ValB);
